@@ -117,7 +117,75 @@ document.documentElement.setAttribute('data-theme',t);if(t==='dark'){var m=docum
           <p class="lead">These are suggestions, not a fixed list &mdash; a starting menu drawn from the interests
              we expect across campus. Claim one, merge two, or propose something entirely different.</p>
         </div>
-        <div class="grid grid--3"><div class="card card--hover card--accent reveal"><div class="card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 2v7.5L4.6 18A2 2 0 0 0 6.3 21h11.4a2 2 0 0 0 1.7-3L14 9.5V2"/><path d="M8 2h8M7.5 14h9"/></svg></div><h3>Agents for Scientific Discovery</h3><p>Literature sweeps, hypothesis generation, simulation campaigns, and lab automation. Can an agent run a credible, reproducible experimental loop &mdash; and how would we know?</p></div><div class="card card--hover card--accent reveal"><div class="card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg></div><h3>Industrial &amp; Energy Operations</h3><p>Agents over sensor data, maintenance records, and operating procedures. Reliability, cost, and the approval boundary between an agent's plan and a human decision.</p></div><div class="card card--hover card--accent reveal"><div class="card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></div><h3>Agent Engineering &amp; Infrastructure</h3><p>The unglamorous half: orchestration frameworks, tool interfaces, retrieval, memory, observability, cost control, and running all of it on real infrastructure.</p></div><div class="card card--hover card--accent reveal"><div class="card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Evaluation, Safety &amp; Governance</h3><p>How do you measure whether an agent works? Benchmarks, failure taxonomies, red-teaming, and policy for agent use in research, teaching and university operations.</p></div><div class="card card--hover card--accent reveal"><div class="card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg></div><h3>Agents in Education</h3><p>Tutors that guide rather than answer, agent-assisted labs, and the harder question of what assessment and academic integrity mean now.</p></div><div class="card card--hover card--accent reveal"><div class="card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18Z"/></svg></div><h3>Arabic &amp; Domain-Specific Agents</h3><p>Performance in Arabic and in specialist technical domains: data, evaluation sets, terminology, and the gaps general-purpose systems leave behind.</p></div></div>
+        <!-- <div class="grid grid--3"><div class="card card--hover card--accent reveal"><div class="card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 2v7.5L4.6 18A2 2 0 0 0 6.3 21h11.4a2 2 0 0 0 1.7-3L14 9.5V2"/><path d="M8 2h8M7.5 14h9"/></svg></div><h3>Agents for Scientific Discovery</h3><p>Literature sweeps, hypothesis generation, simulation campaigns, and lab automation. Can an agent run a credible, reproducible experimental loop &mdash; and how would we know?</p></div><div class="card card--hover card--accent reveal"><div class="card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg></div><h3>Industrial &amp; Energy Operations</h3><p>Agents over sensor data, maintenance records, and operating procedures. Reliability, cost, and the approval boundary between an agent's plan and a human decision.</p></div><div class="card card--hover card--accent reveal"><div class="card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></div><h3>Agent Engineering &amp; Infrastructure</h3><p>The unglamorous half: orchestration frameworks, tool interfaces, retrieval, memory, observability, cost control, and running all of it on real infrastructure.</p></div><div class="card card--hover card--accent reveal"><div class="card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Evaluation, Safety &amp; Governance</h3><p>How do you measure whether an agent works? Benchmarks, failure taxonomies, red-teaming, and policy for agent use in research, teaching and university operations.</p></div><div class="card card--hover card--accent reveal"><div class="card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg></div><h3>Agents in Education</h3><p>Tutors that guide rather than answer, agent-assisted labs, and the harder question of what assessment and academic integrity mean now.</p></div><div class="card card--hover card--accent reveal"><div class="card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18Z"/></svg></div><h3>Arabic &amp; Domain-Specific Agents</h3><p>Performance in Arabic and in specialist technical domains: data, evaluation sets, terminology, and the gaps general-purpose systems leave behind.</p></div></div> -->
+        <div class="grid grid--3">
+  <div class="card card--hover card--accent reveal">
+    <div class="card__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M10 2v7.5L4.6 18A2 2 0 0 0 6.3 21h11.4a2 2 0 0 0 1.7-3L14 9.5V2"/>
+        <path d="M8 2h8M7.5 14h9"/>
+      </svg>
+    </div>
+    <h3>Agents for Smart Mobility</h3>
+    <p>Explore how AI agents can understand context, preferences, and real-time conditions to provide personalized mobility services and support smarter travel decisions.</p>
+  </div>
+
+  <div class="card card--hover card--accent reveal">
+    <div class="card__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="9"/>
+        <circle cx="12" cy="12" r="4.5"/>
+        <circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/>
+      </svg>
+    </div>
+    <h3>Industrial &amp; Energy Operations</h3>
+    <p>Explore agents that reason over sensor data, operational knowledge, and real-time conditions to support monitoring, maintenance, optimization, and decision-making.</p>
+  </div>
+
+  <div class="card card--hover card--accent reveal">
+    <div class="card__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/>
+      </svg>
+    </div>
+    <h3>Agents for Business</h3>
+    <p>Explore how AI agents can automate workflows, coordinate tasks, analyze information, and support decision-making across business functions and organizational processes.</p>
+  </div>
+
+  <div class="card card--hover card--accent reveal">
+    <div class="card__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M3 12h18M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18Z"/>
+      </svg>
+    </div>
+    <h3>Arabic &amp; Domain-Specific Agents</h3>
+    <p>Develop agents that understand Arabic language, local context, and specialized terminology while addressing the unique knowledge and requirements of specific domains.</p>
+  </div>
+
+  <div class="card card--hover card--accent reveal">
+    <div class="card__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/>
+      </svg>
+    </div>
+    <h3>Agents in Education</h3>
+    <p>Explore AI agents that personalize learning, support teaching and research, assist in labs, and enable new forms of interaction between students, educators, and knowledge.</p>
+  </div>
+
+  <div class="card card--hover card--accent reveal">
+    <div class="card__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/>
+        <path d="m9 12 2 2 4-4"/>
+      </svg>
+    </div>
+    <h3>Evaluation, Safety &amp; Governance</h3>
+    <p>Study how to evaluate agent capabilities, identify failure modes, manage risks, and establish responsible practices for deploying AI agents in real-world settings.</p>
+  </div>
+</div>
+
         <p class="center mt-lg"><span class="pill pill--muted">Nothing here fits your question? Good &mdash; that is a new group.</span></p>
       </div>
     </section>
